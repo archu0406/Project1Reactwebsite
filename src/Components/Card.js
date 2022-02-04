@@ -9,7 +9,10 @@ import india from '../img/india.jpg';
 import male from '../img/male.jpg';
 
 
-function Card(){
+
+class Card extends React.Component {
+    render() 
+    {
     return(
         <div className='cards'>
             <h1>Explore New Destinations!!</h1>
@@ -54,5 +57,7 @@ function Card(){
         </div>
     );
 }
+
+};
 
 export default Card;
